@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: test.java.NewTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 2.299 sec <<< FAILURE!
+beforeMethod(test.java.NewTest)  Time elapsed: 2.027 sec  <<< FAILURE!
+java.io.FileNotFoundException: D:/ToolsQA Projects/trunk/OnlineStore/src/testData/TestData.xls (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at utility.ExcelUtils.setExcelFile(ExcelUtils.java:19)
+	at test.java.NewTest.beforeMethod(NewTest.java:47)
+
